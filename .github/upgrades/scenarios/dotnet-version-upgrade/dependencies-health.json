@@ -1,0 +1,93 @@
+{
+  "packageGovernance": {
+    "totalDistinctPackages": 0,
+    "totalVersionDriftInstances": 0,
+    "targetFramework": "net10.0",
+    "packages": []
+  },
+  "projects": [
+    {
+      "name": "HASH",
+      "path": "HASH\\HASH.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net20"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [],
+        "assemblies": [
+          {
+            "name": "System",
+            "version": "2.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "HASH\\HASH.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Windows\\Microsoft.NET\\Framework64\\v2.0.50727\\System.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Drawing",
+            "version": "2.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "HASH\\HASH.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Windows\\Microsoft.NET\\Framework64\\v2.0.50727\\System.Drawing.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Windows.Forms",
+            "version": "2.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "HASH\\HASH.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Windows\\Microsoft.NET\\Framework64\\v2.0.50727\\System.Windows.Forms.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "2.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "HASH\\HASH.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Windows\\Microsoft.NET\\Framework64\\v2.0.50727\\System.Data.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "2.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "HASH\\HASH.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Windows\\Microsoft.NET\\Framework64\\v2.0.50727\\System.Xml.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "mscorlib",
+            "version": "2.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Windows\\Microsoft.NET\\Framework64\\v2.0.50727\\mscorlib.dll",
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [],
+        "frameworkReferences": []
+      }
+    }
+  ]
+}
