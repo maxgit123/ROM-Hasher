@@ -6,7 +6,7 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UseWindowsForms>true</UseWindowsForms>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
-    <NoWarn>WFO1000;CA1416;CS0109;CS3021</NoWarn>
+    <NoWarn>WFO1000;CA1416;CS0109;CS3021;NU1510</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DocumentationFile>bin\Release\HASH.XML</DocumentationFile>
@@ -25,5 +25,8 @@
     <Compile Update="UI\BufferedListbox.cs">
       <SubType>Component</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="10.0.10" />
   </ItemGroup>
 </Project>
