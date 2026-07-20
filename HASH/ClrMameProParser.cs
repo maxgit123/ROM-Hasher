@@ -512,11 +512,6 @@ namespace HASH
                 base(message, innerException) {
                 // Add any type-specific logic for inner exceptions.
             }
-            protected CmpDocumentException(SerializationInfo info,
-               StreamingContext context)
-                : base(info, context) {
-                // Implement type-specific serialization constructor logic.
-            }
         }
 
         /// <summary>

@@ -45,7 +45,6 @@ public class CRC32
     public int HashSizeValue { get; private set; }
     /// <summary>Creates a CRC32 object using the specified polynomial.</summary>
     /// <remarks>The polynomical should be supplied in its bit-reflected form. <see cref="DefaultPolynomial"/>.</remarks>
-    [CLSCompliant(false)]
     public CRC32(uint polynomial) {
         HashSizeValue = 32;
         _crc32Table = (uint[])_crc32TablesCache[polynomial];
@@ -66,7 +65,6 @@ public class CRC32
     #region PROPERTIES
     /// <summary>Gets the default polynomial (used in WinZip, Ethernet, etc.)</summary>
     /// <remarks>The default polynomial is a bit-reflected version of the standard polynomial 0x04C11DB7 used by WinZip, Ethernet, etc.</remarks>
-    [CLSCompliant(false)]
     public static readonly uint DefaultPolynomial = 0xEDB88320; // Bitwise reflection of 0x04C11DB7;
     #endregion
 

@@ -119,7 +119,7 @@ namespace HASH
                 using (var file = File.Open(FileSystem.ConfigFilePath, FileMode.Open)) {
                     try {
                         Config = (ProgramConfig)configSerial.Deserialize(file);
-                    } catch (InvalidOperationException ex) {
+                    } catch (InvalidOperationException) {
                         var msgResult = MessageBox.Show(
                             "There was an error loading program settings. Click OK to reset the config" + Environment.NewLine +
                             "file and open the program.",
@@ -144,7 +144,7 @@ namespace HASH
                 using (var file = File.Open(FileSystem.dbConfigFilePath, FileMode.Open)) {
                     try {
                         DatabaseConfig = (DBConfig)dbconfigSerial.Deserialize(file);
-                    } catch (InvalidOperationException ex) {
+                    } catch (InvalidOperationException) {
                         var msgResult = MessageBox.Show(
                             "There was an error loading database settings. Click OK to reset the settings" + Environment.NewLine +
                             "and open the program.",
